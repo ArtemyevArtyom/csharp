@@ -1,4 +1,8 @@
-﻿void FillArray(int[] collection)
+﻿void FillArray(int[] collection) /* cоздает и заполняет новый
+массив целочисленных элементов случайным количеством случайных элементов.
+Размер массива должен быть в диапазоне от 10 до 100 элементов.
+Значение каждого элемента должно быть в диапазоне -200 до 200. 
+*/
 {
     int length = collection.Length;
     int index = 0;
@@ -39,7 +43,8 @@ int indexOf(int[] collection, int find)
 int [] array = new int[10];
 
 FillArray(array);
-PrintArray(array);
+PrintArray(array); /*выводит переданный массив
+в поток вывода консольного приложения. */
 Console.WriteLine();
 
 int pos = indexOf(array, 4);
