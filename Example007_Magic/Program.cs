@@ -18,7 +18,7 @@ int x = xa, y = xb;
 
 int count = 0;
 
-while (count < 10000) 
+while (count < 100) 
 {
     int what = new Random().Next(0, 3); //[0,3) 0 1 2 
     
